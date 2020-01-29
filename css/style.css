@@ -1,0 +1,56 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  height: 90px;
+  background-color: red;
+  position: relative;
+}
+
+main {
+  background-color: orange;
+}
+
+footer {
+  height: 50px;
+  background-color: palevioletred;
+}
+
+.box1,
+.box2 {
+  height: 500px;
+  background-color: purple;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+#logo {
+  height: 90px;
+  border: 2px solid red;
+}
+
+#logo img {
+  border: 2px solid black;
+  max-height: 90px;
+}
+
+ul li {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+a {
+  line-height: 50px;
+}
+
+nav {
+  background-color: rgb(101, 79, 221);
+  height: 90px;
+}
