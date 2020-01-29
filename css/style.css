@@ -10,47 +10,55 @@
 
 header {
   height: 90px;
-  background-color: red;
+  background-color: rgb(68, 63, 63);
   position: relative;
 }
 
 main {
-  background-color: orange;
+  background-color: rgb(175, 148, 85);
 }
 
 footer {
   height: 50px;
-  background-color: palevioletred;
+  background-color: rgb(92, 76, 76);
+  color: whitesmoke;
+  font-size: 20px;
 }
 
 .box1,
-.box2 {
+.box2,
+.box3 {
   height: 500px;
-  background-color: purple;
+  background-color: rgb(94, 92, 94);
   border: 1px solid black;
   margin-top: 20px;
 }
 
 #logo {
   height: 90px;
-  border: 2px solid red;
+  float: left;
 }
 
 #logo img {
-  border: 2px solid black;
-  max-height: 90px;
+  height: 90px;
+  padding: 15px;
+  padding-left: 25px;
+}
+
+nav {
+  width: 60%;
+  float: right;
 }
 
 ul li {
   display: inline-block;
-  border: 1px solid black;
+  width: 19%;
+  float: right;
+  line-height: 90px;
 }
 
 a {
-  line-height: 50px;
-}
-
-nav {
-  background-color: rgb(101, 79, 221);
-  height: 90px;
+  text-decoration: none;
+  color: whitesmoke;
+  letter-spacing: 3px;
 }
